@@ -11,12 +11,12 @@ Configuration MMAgent
         # MSI Product ID
         [Parameter(Mandatory)]
         [ValidateNotNullOrEmpty()]
-        [String] $OPSINSIGHTS_PID,
+        [Guid] $OPSINSIGHTS_PID,
 
         # OMS Workspace ID
         [Parameter(Mandatory)]
         [ValidateNotNullOrEmpty()]
-        [String] $OPSINSIGHTS_WS_ID,
+        [Guid] $OPSINSIGHTS_WS_ID,
 
         # OMS Workspace Key
         [Parameter(Mandatory)]
