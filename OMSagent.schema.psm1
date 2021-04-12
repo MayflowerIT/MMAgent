@@ -4,7 +4,7 @@ New-Variable -Option ReadOnly -Name SystemSixteen -Value (Join-Path $env:SystemR
     # Sadly, this script is evaluated during *complile* so using variables is...not doing what it seems
 
 
-Configuration MMAgent
+Configuration OMSagent
 {
     param
     (
